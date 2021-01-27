@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Meme</title>
+    <script src="meme.js"></script>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+
+        html {
+            background-image: white;
+            font-family: myFirstFont;
+        }
+
+        @font-face {
+            font-family: myFirstFont;
+            src: url(Roboto-Regular.ttf);
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1 style="font-size: 5em;">Random Meme</h1>
+    </div>
+    <br>
+    <div class="center">
+        <button onclick="changeMe()"><h1>Click Me To Change The Meme!</h1></button>
+    </div>
+    <div class="center">
+        <img id="meme">
+    </div>
+</body>
+</html>
